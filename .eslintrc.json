@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "@react-native-community",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/no-empty-interface",
+    "plugin:react-native/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015
+  },
+  "plugins": ["html"],
+  "settings": {
+    "html/html-extensions": [".html", ".we"]
+  },
+  "rules": {
+    "no-console": 0,
+    "restrictedNamedExports": [0],
+    "no-param-reassign": 0,
+    "import/extensions": 0
+  }
+}
